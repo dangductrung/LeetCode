@@ -1,4 +1,3 @@
-map1 = "abca"
-map2 = "def"
+list = [1,1,2]
 
-print(map1.find("z"))
+print(list.find(1))
