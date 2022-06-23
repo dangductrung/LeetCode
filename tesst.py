@@ -1,3 +1,5 @@
-nums = [-2,1,-3,4,-1,2,1,-5,4]
-
-print(nums[1:])
+mat = [[1,2],[3,4]]
+result = []
+for value in mat:
+    result = result + value
+print(result)
