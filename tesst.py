@@ -1,1 +1,1 @@
-print(100%1)
+print(set("abc"))
