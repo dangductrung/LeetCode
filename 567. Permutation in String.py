@@ -17,9 +17,6 @@ class Solution:
             else:
                 hash2[position] += 1
                 hash2[ord(s2[index - len(s1)]) - ord('a')] -= 1
-            print(s2[index])
-            print(hash1)
-            print(hash2)
             if hash1 == hash2:
                 return True
         
